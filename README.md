@@ -16,6 +16,6 @@ You need to set the initial parameters corresponding to your robot in the [`Init
 ![image](Moment_velocity_detection_2.png)
 
 3. The parameters of the selected motor must be written to the [`drive_params.m`](/drive_params.m’) file.
-To verify the parameters of the selected engine, it is necessary to run the [`drive_impl.slx`](/drive_impl.slx) model with the [`drive_impl_code.slx`](/drive_impl_code.slx code).
+To verify the parameters of the selected engine, it is necessary to run the [`drive_impl.slx`](/drive_impl.slx) model with the [`drive_impl_code.slx`](/drive_impl_code.slx).
 Because this modeling format assumes the presence of large computing power; for verification, a variant with balancing at one point and a simple state controller is used.
 ![image]( Drive_impl_1.png)
