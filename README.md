@@ -8,10 +8,10 @@ For more information on deriving equations of motion and creating a trajectory d
 1. To determine the parameters of the engine, it is necessary to analyze the graphs obtained during the initial simulation.
 Figure shows a visual simplified representation of a robot on a spherical base.
 ![image](Parameters_viz.png)
-You need to set the initial parameters corresponding to your robot in the [‘Initial_code.m’] (/Initial_code.m) code.
+You need to set the initial parameters corresponding to your robot in the [‘Initial_code.m’] (/Initial_code) code.
 ![image](par.png)
 
-2. Next, you need to run the [‘moment_velocity_plot.m’] (/moment_velocity_plot.m’) and analyze the resulting graphs, determining the maximum speed and moment of the rotational rollers. These will be the maximum values that the drive you have chosen should provide.
+2. Next, you need to run the [‘moment_velocity_plot.m’] (/moment_velocity_plot) and analyze the resulting graphs, determining the maximum speed and moment of the rotational rollers. These will be the maximum values that the drive you have chosen should provide.
 ![image](Moment_velocity_detection_1.png)
 ![image](Moment_velocity_detection_2.png)
 
